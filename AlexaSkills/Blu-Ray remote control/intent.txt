@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "BR_PLAY"
+    },
+    {
+      "intent": "BR_ONOFF"
+    },
+    {
+      "intent": "BR_CHUP"
+    },
+    {
+      "intent": "BR_CHDN"
+    },
+    {
+      "intent": "BR_EJECT"
+    },
+    {
+      "intent": "BR_SUB"
+    }
+  ]
+}

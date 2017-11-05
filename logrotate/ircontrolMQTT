@@ -1,0 +1,11 @@
+/home/chip/ircontrolMQTT/ircontrolMQTT.log {
+  daily         # how often to rotate
+  size=100k     # maz size
+  rotate 3      # max num of log files to keep
+  missingok     # don't panic if the log file doesn't exist
+  notifempty    # ignore empty files
+  sharedscripts # postrotate script (if any) will be run only once at the end, not once for each rotated log
+  copytruncate  # needed for forever to work properly
+  dateext       # adds date to filename 
+  dateformat %Y-%m-%d.
+}

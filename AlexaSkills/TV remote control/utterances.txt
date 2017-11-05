@@ -1,0 +1,23 @@
+TV_ON to turn on
+TV_ON on
+TV_OFF to turn off
+TV_OFF off
+TV_MUTE to mute
+TV_MUTE mute
+TV_MUTE unmute
+TV_HDMI HDMI
+TV_HDMI switch to HDMI
+TV_TV TV
+TV_TV switch to TV
+
+TV_CHUP to go channel up
+TV_CHUP channel up
+TV_CHUP to go a channel up
+TV_CHDN to go channel down
+TV_CHDN channel down
+TV_CHDN to go a channel down
+
+TV_GLOBAL Global
+TV_GLOBAL Global TV
+TV_CTV CTV
+TV_CBC CBC

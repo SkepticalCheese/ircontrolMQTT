@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "TV_ON"
+    },
+    {
+      "intent": "TV_OFF"
+    },
+    {
+      "intent": "TV_MUTE"
+    },
+    {
+      "intent": "TV_HDMI"
+    },
+    {
+      "intent": "TV_TV"
+    },
+    {
+      "intent": "TV_CHUP"
+    },
+    {
+      "intent": "TV_CHDN"
+    },
+    {
+      "intent": "TV_VOLUP"
+    },
+    {
+      "intent": "TV_VOLDN"
+    },
+    {
+      "intent": "TV_GLOBAL"
+    },
+    {
+      "intent": "TV_CTV"
+    },
+    {
+      "intent": "TV_CBC"
+    }
+  ]
+}

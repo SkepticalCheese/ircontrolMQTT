@@ -1,0 +1,54 @@
+---
+- intent: BR_PLAY # Blu ray play/pause
+  code: '0xA2AD43BC'
+- intent: BR_ONOFF  # Blu ray on/off
+  code: '0xA2AD03FC'
+- intent: BR_CHUP
+  code: '0xA2AD24DB'
+- intent: BR_CHDN
+  code: '0xA2ADC43B'
+- intent: BR_EJECT
+  code: '0xA2AD837C'
+- intent: BR_SUB  # Blu ray subtitles 
+  code: '0xA2AD14EB'
+
+	# TV (prefix: 20DF)
+  #    Key     LG  Flipped + Comp
+  #    POWER   08  10EF
+  #    MUTE    09  906F
+  #    VOL +   02  40BF
+  #    VOL -   03  C03F
+  #    CH +    00  00FF
+  #    CH -    01  807F
+  #    TV      0F  F00F
+  #    PWR ON  C4  23DC
+  #    PWR OFF C5  A35C
+  #    HDMI 1  CE  738C
+  #    HDMI 2  CC  33CC
+  
+- intent: TV_TV   # TV TV/antenna input
+  code: 0x20DFF00F
+- intent: TV_VOLUP
+  code: 0x20DF40BF
+- intent: TV_VOLDN
+  code: 0x20DFC03F
+- intent: TV_CHUP
+  code: 0x20DF00FF
+- intent: TV_CHDN
+  code: 0x20DF807F
+- intent: TV_MUTE
+  code: 0x20DF906F
+- intent: TV_ON
+  code: 0x20DF23DC
+- intent: TV_OFF
+  code: 0x20DFA35C
+- intent: TV_HDMI   # TV HDMI1
+  code: 0x20DF738C
+- intent: TV_GLOBAL # TV CH2
+  code: 0x20DF48B7
+- intent: TV_CTV    # TV CH4
+  code: 0x20DF28D7
+- intent: TV_CITYTV # TV CH5  
+  code: 0x20DFA857
+- intent: TV_CBC    # TV CH9
+  code: 0x20DF9867

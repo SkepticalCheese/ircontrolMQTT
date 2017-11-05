@@ -1,0 +1,19 @@
+#!/bin/sh
+#/etc/init.d/ircontrolMQTT
+export PATH=$PATH:/home/chip/ircontrolMQTT
+export NODE_PATH=$NODE_PATH:/home/chip/ircontrolMQTT/node_modules
+
+case "$1" in
+start)
+exec forever start -a -l ircontrolMQTT.log --sourceDir=/home/chip/ircontrolMQTT -p /home/chip/ircontrolMQTT app.js
+;;
+stop)
+exec forever stop --sourceDir=/home/chip/ircontrolMQTT app.js
+;;
+*)
+echo "Usage: /etc/init.d/myService {start|stop}"
+exit 1
+;;
+esac
+exit 0
+

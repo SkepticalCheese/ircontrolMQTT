@@ -1,0 +1,26 @@
+BR_ONOFF to turn on
+BR_ONOFF on
+BR_ONOFF to turn off
+BR_ONOFF off
+
+BR_PLAY play
+BR_PLAY start
+BR_PLAY pause
+BR_PLAY resume
+
+BR_CHUP to go channel up
+BR_CHUP channel up
+BR_CHUP to go a channel up
+BR_CHDN to go channel down
+BR_CHDN channel down
+BR_CHDN to go a channel down
+
+BR_EJECT eject disk
+BR_EJECT eject DVD
+BR_EJECT eject
+
+BR_SUB subtitles
+BR_SUB display subtitles
+BR_SUB display subtitles
+BR_SUB subtitles on
+BR_SUB subtitles off

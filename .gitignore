@@ -1,0 +1,8 @@
+/node_modules/
+ircontrol.cert.pem
+ircontrol.private.key
+ircontrol.public.key
+ircontrolMQTT.log
+root-CA.crt
+start.sh
+app.js.bak
